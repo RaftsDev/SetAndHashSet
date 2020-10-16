@@ -84,8 +84,10 @@ public class Main {
         HeavenlyBody body = solarSystem.get("Mars");
         System.out.println("Moons of " + body.getName());
         for(HeavenlyBody moon : body.getSatellites()){
-            System.out.println("\t" + moon);
+            System.out.println("\t" + moon.getName());
         }
+
+
 
     }
 }
