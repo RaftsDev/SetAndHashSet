@@ -92,6 +92,11 @@ public class Main {
             moons.addAll(planet.getSatellites());
         }
 
+        System.out.println("Moons:");
+        for(HeavenlyBody moon : moons){
+            System.out.println("\t" + moon);
+        }
+
 
     }
 }
