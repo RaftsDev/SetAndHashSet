@@ -94,7 +94,7 @@ public class Main {
 
         System.out.println("Moons:");
         for(HeavenlyBody moon : moons){
-            System.out.println("\t" + moon);
+            System.out.println("\t" + moon.getName());
         }
 
 
