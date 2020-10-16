@@ -87,6 +87,10 @@ public class Main {
             System.out.println("\t" + moon.getName());
         }
 
+        Set<HeavenlyBody> moons = new HashSet<>();
+        for(HeavenlyBody planet : planets){
+            moons.addAll(planet.getSatellites());
+        }
 
 
     }
