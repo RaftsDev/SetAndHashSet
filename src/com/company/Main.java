@@ -98,5 +98,10 @@ public class Main {
         }
 
 
+        // Add one more Pluto
+
+        HeavenlyBody pluto = new HeavenlyBody("Pluto", 842);
+        planets.add(pluto);
+
     }
 }
