@@ -46,5 +46,8 @@ public class HeavenlyBody {
         return this.name.equals(objName);
     }
 
-
+    @Override
+    public int hashCode() {
+        return this.name.hashCode();
+    }
 }
