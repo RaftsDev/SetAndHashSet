@@ -49,6 +49,6 @@ public class HeavenlyBody {
     @Override
     public int hashCode() {
         System.out.println("Hashcode method used");
-        return this.name.hashCode() + 57;
+        return this.name.hashCode() + 57; // ?
     }
 }
