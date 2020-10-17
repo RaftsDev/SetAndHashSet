@@ -103,6 +103,8 @@ public class Main {
         HeavenlyBody pluto = new HeavenlyBody("Pluto", 842);
         planets.add(pluto);
 
+        System.out.println("Planets: ");
+
         for( HeavenlyBody planet : planets){
             System.out.println(planet.getName() + ":" + planet.getOrbitalPeriod());
         }
