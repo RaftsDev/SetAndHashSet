@@ -103,6 +103,7 @@ public class Main {
         HeavenlyBody pluto = new HeavenlyBody("Pluto", 842);
         planets.add(pluto);
 
+        System.out.println("************************");
         System.out.println("Planets: ");
 
         for( HeavenlyBody planet : planets){
