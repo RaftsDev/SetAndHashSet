@@ -18,7 +18,7 @@ public class Dog {
         }
         if(obj instanceof Dog){
             String objName = ((Dog)obj).getName();
-            return this.name.equals(obj);
+            return this.name.equals(objName);
         }
         return false;
     }
